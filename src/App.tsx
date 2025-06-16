@@ -1,11 +1,13 @@
-import Navbar from './components/Navbar.tsx'
-import HeroSection from './components/HeroSection.tsx'
+import Navbar from '@/components/layout/Navbar.tsx'
+import HeroSection from '@/components/sections/HeroSection.tsx'
+import SkillsSection from '@/components/sections/SkillsSection.tsx'
 
 function App() {
   return (
     <>
       <Navbar />
       <HeroSection />
+      <SkillsSection />
     </>
   )
 }
