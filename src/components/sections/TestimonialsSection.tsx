@@ -18,30 +18,6 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
-    company: "Negev",
-    logo: "/brands/startup_negev.jpeg",
-    text: "Your experience has proven itself, you have built a professional and agile team",
-    author: "Israel Ben Shitrit",
-    position: "Manage Corporate Startup"
-  },
-  {
-    id: 3,
-    company: "Beez AbInBev",
-    logo: "/brands/btlv.webp",
-    text: "We were able to build an end to end Machine Learning models and bring them to production thanks to the work that was done by the Adom team",
-    author: "Gil Kaplan",
-    position: "CAO"
-  },
-  {
-    id: 4,
-    company: "Aterra",
-    logo: "/brands/atera.png",
-    text: "We were amazed by your broad NLP knowledge which allowed us to build a tailor made solution for our needs",
-    author: "Israel Sofer",
-    position: "Head Of Data Science"
-  },
-  {
-    id: 5,
     company: "Bank Hapoalim",
     logo: "/brands/bank_hapoalim.png",
     text: "Very professional and high quality work!",
@@ -49,19 +25,43 @@ const testimonials: Testimonial[] = [
     position: "CTO"
   },
   {
-    id: 6,
+    id: 3,
+    company: "Aterra",
+    logo: "/brands/atera.png",
+    text: "We were amazed by your broad NLP knowledge which allowed us to build a tailor made solution for our needs",
+    author: "Israel Sofer",
+    position: "Head Of Data Science"
+  },
+  {
+    id: 4,
+    company: "Startup Negev",
+    logo: "/brands/startup_negev.jpeg",
+    text: "Your experience has proven itself, you have built a professional and agile team",
+    author: "Israel Ben Shitrit",
+    position: "Manage Corporate"
+  },
+  {
+    id: 5,
     company: "Israeli Air Force",
     logo: "/brands/iai.webp",
     text: "Dedicated and professional, out of the box thinking, great problem solver, extremely recommended!",
     author: "Shimon Wagon",
-  }
+  },
+  {
+    id: 6,
+    company: "Beez AbInBev",
+    logo: "/brands/btlv.webp",
+    text: "We were able to build an end to end Machine Learning models and bring them to production thanks to the work that was done by the Adom team",
+    author: "Gil Kaplan",
+    position: "CAO"
+  },
 ]
 
 export default function TestimonialsSection() {
   return (
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-white sm:text-4xl">
+          <h2 className="text-3xl font-bold text-white sm:text-4xl md:text-5xl">
             Trusted by Industry Leaders
           </h2>
           <p className="mt-4 text-xl text-white/80">

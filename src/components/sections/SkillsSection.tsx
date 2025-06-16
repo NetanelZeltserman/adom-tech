@@ -41,7 +41,7 @@ const SkillsSection = () => {
   return (
     <section className="relative py-24 overflow-hidden">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl md:text-6xl font-bold mb-16 text-white text-center">
+        <h2 className="text-3xl md:text-5xl font-bold mb-16 text-white text-center">
           We Specialize in...
         </h2>
 
