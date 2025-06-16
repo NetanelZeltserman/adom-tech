@@ -35,7 +35,7 @@ function TechIcons() {
       {TECH_ICONS.map(({ Icon, position }, index) => (
         <div
           key={index}
-          className="absolute text-[#BA0000]/30 animate-float"
+          className="absolute text-[#2A2A2AFF]/30 animate-float"
           style={{
             ...position,
             animationDelay: `3s`,

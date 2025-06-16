@@ -8,7 +8,7 @@ const brands: Brand[] = [
   { name: 'Nice', logo: '/brands/nice.webp'},
   { name: 'Payoneer', logo: '/brands/payoneer.png' },
   { name: 'IAI', logo: '/brands/iai.webp' },
-  { name: 'Bank Hapoalim', logo: '/brands/bank_hapoalim.webp' },
+  { name: 'Bank Hapoalim', logo: '/brands/bank_hapoalim.png' },
   { name: 'Sepio', logo: '/brands/sepio.webp' },
   { name: 'BMZ', logo: '/brands/bmz.webp' },
   { name: 'Black Green Shield', logo: '/brands/black_green_shielf.webp' },
