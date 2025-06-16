@@ -1,6 +1,6 @@
 import Button from '@/components/Button';
 import BrandCarousel from '@/components/BrandCarousel';
-import { FaReact, FaDatabase, FaCloud, FaMobileAlt, FaGlobe, FaServer, FaCode } from 'react-icons/fa';
+import { FaReact, FaDatabase, FaCloud, FaMobileAlt, FaServer, FaCode } from 'react-icons/fa';
 import { SiTypescript, SiDocker } from 'react-icons/si';
 import type { IconType } from 'react-icons';
 
@@ -20,6 +20,7 @@ const TECH_ICONS: TechIcon[] = [
   { Icon: FaDatabase, position: { bottom: '30%', left: '7%' } },
   { Icon: SiTypescript, position: { top: '35%', left: '20%' } },
 
+  // Center side
   { Icon: FaCode, position: { top: '20%', left: '45%' } },
   { Icon: SiDocker, position: { bottom: '10%', left: '40%' } },
 
