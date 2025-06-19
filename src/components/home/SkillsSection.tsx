@@ -15,7 +15,7 @@ export default function SkillsSection() {
                 <img 
                   src="/laptop.jpg" 
                   alt="Developer coding on a laptop" 
-                  className="w-full h-full object-cover grayscale opacity-80"
+                  className="w-full h-full object-cover opacity-80"
                 />
               </div>
             </div>
