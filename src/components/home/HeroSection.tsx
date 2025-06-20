@@ -62,7 +62,7 @@ export default function HeroSection() {
           <span className="block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 tracking-tight">
             The Go-To Company for
           </span>
-          <span className="relative inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black bg-gradient-to-br from-[#FF1E1E] via-[#FE0000] to-[#B30000] bg-clip-text text-transparent">
+          <span className="relative inline-block text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black bg-gradient-to-br from-[#FF3636FF] to-[#FF0000FF] bg-clip-text text-transparent">
             Software Development
           </span>
         </h1>
@@ -72,12 +72,10 @@ export default function HeroSection() {
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6 mb-16 sm:mb-20">
-          <Button 
-            variant="primary" 
-          >
+          <Button to="/contact" variant="primary">
             Let's Talk
           </Button>
-          <Button variant="secondary">Learn More</Button>
+          <Button to="/about" variant="secondary">Learn More</Button>
         </div>
 
         <div className="max-w-6xl mx-auto w-full">

@@ -30,10 +30,8 @@ export default function AboutPage() {
           <p className="text-lg text-white/80 max-w-4xl mx-auto leading-relaxed mb-12">
             Adom is comprised of highly experienced engineers, with decades of experience in building teams, services, platforms, and solutions for both startups and enterprises. Our team excels in DevOps, Cloud Engineering, Machine Learning, and Software Development.
           </p>
-          
           <div className="flex flex-col sm:flex-row justify-center gap-6">
-            <Button variant="primary">Get In Touch</Button>
-            <Button variant="secondary">View Our Work</Button>
+            <Button variant="primary" to="/contact">Let's Talk</Button>
           </div>
         </div>
       </section>
