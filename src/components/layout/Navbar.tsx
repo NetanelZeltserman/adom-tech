@@ -8,8 +8,7 @@ export default function Navbar() {
   const navItems = [
     { name: 'Home', to: '/' },
     { name: 'About Us', to: '/about' },
-    { name: 'Portfolio', to: '#' },
-    { name: 'Contact Us', to: '#' }
+    { name: 'Contact Us', to: '/contact' }
   ];
 
   return (
