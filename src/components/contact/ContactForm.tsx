@@ -23,7 +23,7 @@ const initialValues = {
 };
 
 export default function ContactForm() {
-  const handleSubmit = (values: typeof initialValues, { setSubmitting, resetForm }: FormikHelpers<typeof initialValues>) => {
+  const handleSubmit = (_values: typeof initialValues, { setSubmitting, resetForm }: FormikHelpers<typeof initialValues>) => {
     setTimeout(() => {
       alert('Thank you for your message! We will get back to you soon.');
       resetForm();
