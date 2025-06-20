@@ -1,4 +1,3 @@
-import Navbar from '@/components/layout/Navbar'
 import { founders } from '@/data/team'
 import Button from '@/components/Button'
 import CallToAction from '@/components/CallToAction'
@@ -7,8 +6,6 @@ import FounderCard from '@/components/about/FounderCard'
 export default function AboutPage() {
   return (
     <>
-      <Navbar />
-
       <section className="relative min-h-screen flex items-center justify-center py-20 px-4 sm:px-8 lg:px-12">
         <video 
           autoPlay 
